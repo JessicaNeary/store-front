@@ -1,8 +1,8 @@
 {
-  "name": "react-boilerplate",
+  "name": "Store Front",
   "version": "0.1.1",
-  "description": "A simple boilerplate for a react webpage",
-  "repository": "https://github.com/JessicaNeary/react-boilerplate.git",
+  "description": "A basic store front layout, made to practise quickly building front-end layouts from wireframes",
+  "repository": "https://github.com/JessicaNeary/store-front",
   "main": "server/index.js",
   "scripts": {
     "dev": "webpack-dev-server --content-base public/ --hot --inline",
@@ -16,7 +16,7 @@
       "react"
     ]
   },
-  "author": "EDA",
+  "author": "JessicaNeary",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.21.0",

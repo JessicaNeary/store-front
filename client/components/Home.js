@@ -7,10 +7,13 @@ import { categories, products } from '../../products.js'
 
 export default React.createClass({
   render () {
+    const featured = products.filter(function (item) {
+      return item.featured
+    })
     return (
       <div>
         <ImageScroller categories={categories} />
-        <ProductGallery products={products} />
+        <ProductGallery products={featured} />
       </div>
     )
   }

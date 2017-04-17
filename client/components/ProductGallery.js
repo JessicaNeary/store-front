@@ -1,10 +1,7 @@
 import React from 'react'
 
 const ProductGallery = ({products}) => {
-  const featured = products ? products.filter(function (item) {
-    return item.featured
-  }) : null
-  const display = featured ? featured.map(function (item) {
+  const display = products ? products.map(function (item) {
     return (
       <div className='item' key={item.id}>
         <img src={item.image} />

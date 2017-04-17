@@ -1,8 +1,6 @@
 import React from 'react'
 
-import { products } from '../../products.js'
-
-const ProductGallery = () => {
+const ProductGallery = ({products}) => {
   const featured = products ? products.filter(function (item) {
     return item.featured
   }) : null

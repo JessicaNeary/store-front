@@ -1,11 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router'
+
+import Header from './Header'
 
 export default React.createClass({
   render () {
     return (
       <div>
-        <h1>Title</h1>
+        <Header />
         {this.props.children}
       </div>
     )

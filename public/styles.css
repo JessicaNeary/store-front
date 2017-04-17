@@ -1,0 +1,32 @@
+.Header .logo {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  padding: 30px;
+}
+
+.Header .navigation {
+  margin: auto;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Header .navigation .item {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+.ProductGallery {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.ProductGallery .item {
+  margin: auto;
+  width: 350px;
+  padding-top: 50px;
+}

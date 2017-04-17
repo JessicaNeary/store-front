@@ -38,7 +38,7 @@ export const products = [
     name: 'Bell Bottoms',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat',
     image: 'https://placehold.it/350x250',
-    featured: true,
+    featured: false,
     onSale: false
   },
   {

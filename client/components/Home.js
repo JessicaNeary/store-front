@@ -10,7 +10,7 @@ const Home = () => {
     return item.featured
   })
   return (
-    <div>
+    <div className='Home'>
       <ImageScroller />
       <ProductGallery products={featured} />
     </div>

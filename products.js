@@ -20,6 +20,7 @@ export const products = [
     name: 'Flowery Top',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat',
     image: 'https://placehold.it/350x250',
+    price: 35,
     featured: true,
     onSale: false
   },
@@ -29,6 +30,7 @@ export const products = [
     name: 'Asymetrical Top',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat',
     image: 'https://placehold.it/350x250',
+    price: 30,
     featured: true,
     onSale: false
   },
@@ -38,6 +40,7 @@ export const products = [
     name: 'Bell Bottoms',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat',
     image: 'https://placehold.it/350x250',
+    price: 50,
     featured: false,
     onSale: false
   },
@@ -47,6 +50,7 @@ export const products = [
     name: 'Cozy Jumper',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat',
     image: 'https://placehold.it/350x250',
+    price: 60,
     featured: true,
     onSale: true
   },
@@ -56,6 +60,7 @@ export const products = [
     name: 'Raybans',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat',
     image: 'https://placehold.it/350x250',
+    price: 50,
     featured: true,
     onSale: true
   },
@@ -65,6 +70,7 @@ export const products = [
     name: 'Cool Jeans',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat',
     image: 'https://placehold.it/350x250',
+    price: 50,
     featured: true,
     onSale: true
   },
@@ -74,6 +80,7 @@ export const products = [
     name: 'Basic T-Shirt',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat',
     image: 'https://placehold.it/350x250',
+    price: 10,
     featured: true,
     onSale: false
   }

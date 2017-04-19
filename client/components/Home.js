@@ -3,7 +3,7 @@ import React from 'react'
 import ImageScroller from './ImageScroller'
 import ProductGallery from './ProductGallery'
 
-import { categories, products } from '../../products.js'
+import { products } from '../../products.js'
 
 const Home = () => {
   const featured = products.filter(function (item) {
@@ -11,7 +11,7 @@ const Home = () => {
   })
   return (
     <div>
-      <ImageScroller categories={categories} />
+      <ImageScroller />
       <ProductGallery products={featured} />
     </div>
   )

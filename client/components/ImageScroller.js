@@ -1,9 +1,16 @@
 import React from 'react'
+import Carousel from 'nuka-carousel'
 
-const ImageScroller = categories => {
+const ImageScroller = () => {
   return (
-    <div>
-    </div>
+    <Carousel className='ImageScroller'>
+      <img src='http://placehold.it/600x200' />
+      <img src='http://placehold.it/600x200' />
+      <img src='http://placehold.it/600x200' />
+      <img src='http://placehold.it/600x200' />
+      <img src='http://placehold.it/600x200' />
+      <img src='http://placehold.it/600x200' />
+    </Carousel>
   )
 }
 

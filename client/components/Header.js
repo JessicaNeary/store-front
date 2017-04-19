@@ -5,7 +5,7 @@ import { categories } from '../../products.js'
 
 const Header = () => {
   const links = categories.map(function (cat) {
-    return <Link key={cat.id} className='item' to={`category/${cat.id}`}>{cat.name}</Link>
+    return <Link key={cat.id} className='item' activeClassName='active' to={`category/${cat.id}`}>{cat.name}</Link>
   })
   return (
     <div className='Header'>

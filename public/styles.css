@@ -43,6 +43,11 @@
   padding: 20px 0px;
 }
 
+.ProductGallery .item:nth-child(3n+2) {
+  margin-right: auto;
+  padding-left: 2%;
+}
+
 @media (max-width: 950px) {
   .ProductGallery .item {
     width: 48%;

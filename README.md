@@ -1,8 +1,6 @@
-# react-boilerplate
+# store-front
 
-A simple boilerplate for a react application.
-
-Uses an express server, bundled with Webpack. Also uses nodemon, babel, and is equip with Tape and Enzyme for testing. 
+A simple store front application built to practise quickly developing a wireframe into a front-end layout. 
 
 ## Setup
 
